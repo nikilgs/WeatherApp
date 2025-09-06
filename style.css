@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FCF8DD;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% ; 
+    height: 850px;  
+    margin-top: 10px;
+}
+.image{
+  margin-top: -10px;
+}
+
+.a {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #FFF4A4;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+.a:hover{
+    transform:scale(1.1);
+    transition-duration: 3s;
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+.input input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #2196f3;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0b7dda;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.b h2, .b p {
+    margin: 10px 0;
+    color: #333;
+}
+
+.cloudy {
+    background-image: url('https://burst.shopifycdn.com/photos/cloudy-sky-from-above.jpg?exif=0&iptc=0');
+}
+
+.rainy {
+    background-image: url('https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg?cs=srgb&dl=pexels-veeterzy-39811.jpg&fm=jpg');
+}
+
+.clear {
+    background-image: url('https://media.istockphoto.com/id/1409485692/photo/thermometer-in-front-of-paris-skyline.jpg?s=612x612&w=0&k=20&c=on0rUy64k47dtNHRb-hezq3-Uz5v_cOnialtR2Kajzw=');
+}
+.default{
+    background-image: url('https://img.freepik.com/free-photo/sunset-beach-ai-generated_268835-11222.jpg?semt=ais_hybrid&w=740');
+}
