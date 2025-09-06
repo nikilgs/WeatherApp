@@ -1,4 +1,4 @@
-﻿# WeatherApp
+
 # Weather App 🌦️
 
 A simple weather application that fetches and displays live weather data.
@@ -14,4 +14,5 @@ A simple weather application that fetches and displays live weather data.
 1. Clone the repository:
    ```bash
    git clone https://github.com/<your-username>/weather.git
+
 
